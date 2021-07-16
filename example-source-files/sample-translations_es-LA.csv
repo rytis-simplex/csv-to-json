@@ -1,0 +1,29 @@
+yup-validation-errors.mixed.default;${path} no es válido
+yup-validation-errors.mixed.required;${path} es un campo obligatorio
+yup-validation-errors.mixed.oneOf;${path} debe ser uno de los siguientes valores: ${values}
+yup-validation-errors.mixed.notOneOf;${path} no debe ser uno de los siguientes valores: ${values}
+yup-validation-errors.mixed.defined;${path} debe estar definido
+yup-validation-errors.string.length;${path} debe tener exactamente ${length} caracteres
+yup-validation-errors.string.min;${path} debe tener, al menos, ${min} caracteres
+yup-validation-errors.string.max;${path} debe tener como máximo ${max} caracteres
+yup-validation-errors.string.matches;"${path} debe coincidir con lo siguiente: ""${regex}"""
+yup-validation-errors.string.email;${path} debe ser un correo electrónico válido
+yup-validation-errors.string.url;${path} debe ser una URL válida
+yup-validation-errors.string.uuid;${path} debe ser un UUID válido
+yup-validation-errors.string.trim;${path} debe ser una secuencia recortada
+yup-validation-errors.string.lowercase;${path} debe ser una secuencia en minúscula
+yup-validation-errors.string.uppercase;${path} debe ser una secuencia en mayúscula
+yup-validation-errors.number.min;${path} debe ser mayor que o igual a ${min}
+yup-validation-errors.number.max;${path} debe ser menor que o igual a ${max}
+yup-validation-errors.number.lessThan;${path} debe ser menor que ${less}
+yup-validation-errors.number.moreThan;${path} debe ser mayor que ${more}
+yup-validation-errors.number.positive;${path} debe ser un número positivo
+yup-validation-errors.number.negative;${path} debe ser un número negativo
+yup-validation-errors.number.integer;${path} debe ser un número entero
+yup-validation-errors.date.min;El campo ${path} debe ser posterior a ${min}
+yup-validation-errors.date.max;El campo ${path} debe ser anterior a ${max}
+yup-validation-errors.boolean.isValue;El campo ${path} debe ser ${value}
+yup-validation-errors.object.noUnknown;El campo ${path} tiene claves no especificadas: ${unknown}
+yup-validation-errors.array.min;El campo ${path} debe tener al menos ${min} ítems
+yup-validation-errors.array.max;El campo ${path} debe tener menos que ${max} ítems o una cantidad igual
+yup-validation-errors.array.length;${path} debe tener ${length} ítems

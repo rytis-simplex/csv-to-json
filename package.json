@@ -1,0 +1,17 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "description": "An utility to convert translations JSON file to CSV and back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rytis Alekna",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "flat": "^5.0.2",
+    "papaparse": "^5.3.1"
+  }
+}
