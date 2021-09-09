@@ -4,6 +4,7 @@ This is a utility to convert translations CSV to JSON and back. CSV is used by o
 
 ## Params
 `to-json`
+`to-csv`
 
 ## Example usage
 
